@@ -15,6 +15,15 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
+			<repositories>
+                         <repository>
+                         <id>central</id>
+                         <url>https://repo.maven.apache.org/maven2</url>
+                        </repository>
+                       </repositories>
+		</dependency>
+
+		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
